@@ -18,25 +18,3 @@ Duration:‌ ‌100‌ ‌Hours‌ ‌(6 ‌Months)‌ ‌
 10. Big‌ ‌Data‌ ‌and‌ ‌PySpark‌
 11. Development‌ ‌Operations‌ ‌with‌ ‌Azure‌
 12. Five‌ ‌Major‌ ‌Projects‌ ‌and‌ ‌Git‌ 
-
-### Technology‌ ‌Stack‌
-
-- Python‌
-- Data‌ ‌Structures‌
-- NumPy‌
-- Pandas‌
-- Matplotlib‌
-- Seaborn‌
-- Scikit-Learn‌
-- Statsmodels‌
-- Natural‌ ‌Language‌ ‌Toolkit‌ ‌(‌ ‌NLTK‌ ‌)‌
-- PyTorch‌
-- OpenCV‌
-- Tableau‌
-- Structure‌ ‌Query‌ ‌Language‌ ‌(‌ ‌SQL‌ ‌)‌
-- PySpark‌
-- Azure‌ ‌Fundamentals‌
-- Azure‌ ‌Data‌ ‌Factory‌
-- Databricks‌
-- 5‌ ‌Major‌ ‌Projects‌
-- Git‌ ‌and‌ ‌GitHub‌ ‌
