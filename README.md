@@ -6,7 +6,7 @@ Data Science ML Alpha 2022
 ‌
 Duration:‌ ‌100‌ ‌Hours‌ ‌(6 ‌Months)‌ ‌
 ‌
-1. Python‌ ‌Programming‌ ‌and‌ ‌Logic‌ ‌Building‌
+1. [Python‌ ‌Programming‌ ‌and‌ ‌Logic‌ ‌Building‌](https://github.com/hemansnation/Python-Roadmap-2022)
 2. Data‌ ‌Structure‌ ‌&‌ ‌Algorithms‌
 3. Pandas‌ ‌Numpy‌ ‌Matplotlib‌
 4. Statistics‌
