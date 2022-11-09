@@ -1,0 +1,2 @@
+this is a demo file for reading the content.
+it contains virus.
