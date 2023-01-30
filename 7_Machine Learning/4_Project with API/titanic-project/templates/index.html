@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Survival Simulation</title>
+</head>
+<body>
+    <div>
+        <h1>Your Traveler Information</h1>
+        <form>
+            <label>Port of Embarcation</label>
+            <select name="selected_embarked">
+                <option>{{ selected_embarked }}</option>
+                <option>Cherbourg</option>
+                <option>Queenstown</option>
+                <option>Southampton</option>
+            </select>
+            <br>
+            <label>Fare</label>
+            <input type="number" id="fare" placeholder="Enter Fare" name="selected_fare" value="{{selected_fare}}" />
+
+            <br>
+            <label>Age</label>
+            <select name="selected_age">
+                <option value="{{ selected_age }}">{{selected_age}}</option>
+                {% for age in range(0,100) %}
+                    <option>{{age}}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <label>Gender</label>
+            <select name="selected_gender">
+                <option value="{{ selected_gender }}">{{selected_gender}}</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+            <label>Title</label>
+            
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
