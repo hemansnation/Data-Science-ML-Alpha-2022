@@ -8,7 +8,9 @@
 <body>
     <div>
         <h1>Your Traveler Information</h1>
-        <form>
+        <img src="../static/images/ship.jpeg" width="100%" />
+        
+        <form id="submit_params" method="POST" action="{{url_for('submit_new_profile')}}">
             <label>Port of Embarcation</label>
             <select name="selected_embarked">
                 <option>{{ selected_embarked }}</option>
@@ -37,7 +39,66 @@
             </select>
             <br>
             <label>Title</label>
-            
+            <select name="selected_title">
+                <option value="{{ selected_title }}">{{selected_title}}</option>
+                <option value="Dr.">Dr.</option>
+                <option value="Master.">Master.</option>
+                <option value="Miss.">Miss.</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Unknown">Unknown</option>
+                <option value="Rev.">Rev.</option>
+            </select>
+            <br>
+            <label>Class</label>
+            <select name="selected_class">
+                <option value="{{ selected_class }}">{{selected_class}}</option>
+                <option value="First">First</option>
+                <option value="Second">Second</option>
+                <option value="Third">Third</option>
+                
+            </select>
+            <br>
+            <label>Cabin</label>
+            <select name="selected_cabin">
+                <option value="{{ selected_cabin }}">{{selected_cabin}}</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>E</option>
+                <option>F</option>
+                <option>G</option>
+                <option>T</option>
+                <option>Unknown</option>
+                
+            </select>
+            <br>
+            <label>Number of Siblings/Spouse</label>
+            <select name="selected_sibsp">
+                <option value="{{ selected_sibsp }}">{{selected_sibsp}}</option>
+                {% for sibsp in range(0,10) %}
+                    <option>{{sibsp}}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <label>Number of Parents/Children</label>
+            <select name="selected_parch">
+                <option value="{{ selected_parch }}">{{selected_parch}}</option>
+                {% for parch in range(0,10) %}
+                    <option>{{parch}}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <br>
+
+            <button type="submit">Predict Survival</button>
+
+            <br>
+            <h1>Model Results = {{model_results}}</h1>
+            <br>
+            {{model_plot}}
+
         </form>
 
 
